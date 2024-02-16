@@ -6,3 +6,4 @@ function showResult(option) {
         resultDiv.innerHTML = '<p>Você escolheu pegar emprestada com a empresa ou com algum colega de trabalho.</p>';
     }
 }
+
