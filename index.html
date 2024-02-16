@@ -8,23 +8,26 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="decision">
-    <h2 style="color: white;">Estou com a camisa suja?</h2>
-    <div class="options">
-        <div class="option selected">
-            <p>Ir sem a camisa</p>
-            <button onclick="showResult('advertencia')">Sim</button>
+<div class="container">
+    <div class="decision">
+        <h2>Hoje sujei minha camisa</h2>
+        <div class="options">
+            <div class="option selected">
+                <p>Ir sem a camisa do trabalho</p>
+                <button onclick="showResult('advertencia')">Selecionar</button>
+            </div>
+            <div class="option selected">
+                <p>Pegar emprestado de um colega do trabalho ou no estoque</p>
+                <button onclick="showResult('emprestada')">Selecionar</button>
+            </div>
         </div>
-        <div class="option selected">
-            <p>Pegar emprestado</p>
-            <button onclick="showResult('emprestada')">Sim</button>
-        </div>
+        <div id="result"></div>
     </div>
-    <div id="result"></div>
 </div>
 
 <script src="script.js"></script>
 </body>
 </html>
+
 
       
